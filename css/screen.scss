@@ -1,0 +1,28 @@
+// (*) imports required
+
+// Import variables*
+@import "partials/_variables";
+
+// Import reset* (http://html5doctor.com/html-5-reset-stylesheet)
+@import "partials/_reset";
+
+// mixins
+@import "partials/_mixins";
+
+// Import styles for Wordpress entry
+@import "partials/_wp-entry";
+
+// Import styles for Wordpress cards
+@import "partials/_wp-cards";
+
+// Import google fonts (http://fonts.google.com)
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Import font-face
+// @import "fonts/font-name/_font-name";
+
+// Import icons
+// @import "fonts/icons/_icons";
+
+// Import main styles
+@import "partials/_main";
